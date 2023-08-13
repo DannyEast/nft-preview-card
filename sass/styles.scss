@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+    font-family:Outfit;
+}
+
+.background {
+    background-color:hsl(217, 54%, 11%);
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+
+.container {
+    width: 17rem;
+    height: 28.5rem;
+    background-color:hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction:column;
+    align-self: center;
+    box-shadow: 0rem 0rem 2rem .1rem black;
+    border-radius:15px;
+}
+
+.text-area {
+    padding:1.25rem;
+    padding-top: .5rem;
+}
+
+.img {
+    height:100%;
+    width:100%;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 0.85rem;
+}
+
+.img__div {
+    height: 15rem;
+    width:15rem;
+    align-self: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.title {
+    color:white;
+    font-size:1.05rem
+}
+
+.description {
+    color: white;
+    opacity: 60%;
+    font-weight: 300;
+}
+
+.stats {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    align-items:center;
+}
+
+.eth {
+    display: inline-block;
+    display:flex;
+    &__icon {
+        margin-right:0.5rem;
+    }
+
+    &__value {
+        font-size:0.8rem;
+        color: hsl(178, 100%, 50%);
+        font-weight:600;
+        justify-self:center;
+    }
+}
+
+.timer {
+    display: inline-block;
+    justify-items: Center;
+    display:flex;
+
+    &__icon {
+        margin-right:0.5rem;
+    }
+
+    &__text {
+        justify-self:center;
+        color:white;
+        opacity:65%;
+        font-weight:300;
+    }
+}
+
+.line {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: hsl(215, 32%, 27%);
+    width:100%;
+    margin-top: .75rem;
+}
+
+.user {
+    display:flex;
+    margin-top: .75rem;
+
+    &__pic-img {
+        height:100%;
+        width:100%;
+    }
+
+    &__pic {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        border-width: .1rem;
+        border-color: white;
+        border-style: solid;
+        margin-right: .8rem;
+    }
+
+    &__text {
+        align-self:center;
+        color:white;
+        opacity: 60%;
+    }
+
+    &__name {
+        align-self:center;
+        color:white;
+        margin-left: 0.3rem;
+    }
+    
+}
